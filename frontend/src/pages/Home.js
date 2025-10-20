@@ -40,7 +40,6 @@ function Home() {
           placeholder="Enter a task"
         />
         <button onClick={addTodo}>Add</button>
-        <button>demo testing</button>
       </div>
 
       <TodoList todos={todos} deleteTodo={deleteTodo} />
